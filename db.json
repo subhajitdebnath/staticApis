@@ -1,0 +1,72 @@
+{
+  "customers": [
+        {
+            id: 1,
+            joined: '2000-12-02', 
+            name: 'Subhajit', 
+            city: 'Kolkata', 
+            orderTotal: 100,
+            orders: [
+                {
+                    id: 1,
+                    product: 'Shoes',
+                    total: 99.99
+                },{
+                    id: 2,
+                    product: 'Shoes',
+                    total: 99.99
+                },{
+                    id: 3,
+                    product: 'Shoes',
+                    total: 99.99
+                },{
+                    id: 4,
+                    product: 'Shoes',
+                    total: 99.99
+                },
+            ]
+        },
+        {
+            id: 2,
+            joined: '2000-12-05', 
+            name: 'Srijita', 
+            city: 'Dunlop', 
+            orderTotal: 500,
+            orders: [
+                {
+                    id: 2,
+                    product: 'Bag',
+                    total: 10.99
+                }
+            ]
+        },
+        {
+            id: 3,
+            joined: '2002-12-05', 
+            name: 'Srijita1', 
+            city: 'Dunlop', 
+            orderTotal: 500,
+            orders: [
+                {
+                    id: 2,
+                    product: 'Bag',
+                    total: 10.99
+                }
+            ]
+        },
+        {
+            id: 4,
+            joined: '2001-12-05', 
+            name: 'Srijita2', 
+            city: 'Dunlop', 
+            orderTotal: 500,
+            orders: [
+                {
+                    id: 2,
+                    product: 'Bag',
+                    total: 10.99
+                }
+            ]
+        }
+    ]
+}
